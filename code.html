@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Curso de css</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <article id="temario-curso">
+
+        <h1>APRENDIENDO A USAR LAS HOJAS ESTILOS (CSS)</h1>
+        <h2>Temario del curso</h2>
+        <ul>
+            <li><a href="index.html#selctores-avanzados">selectores-avanzados</a></li>
+
+        </ul>
+    </article>
+    <hr>
+
+    <article id="selectores-avanzados">
+        <h2>selectores avanzados</h2>
+        <h3>selectores hijos</h3>
+        <h4>selectores de hijos directos</h4>
+        <ul class="hijos-directos">
+            <li><b>verano</b></li>
+            <li><b>otoño</b></li>
+            <li><b>invierno</b></li>
+            <li><b>primavera</b></li>
+        </ul>
+        <h4>selectores de hijos descendientes</h4>
+        <ul class="hijos-descendientes">
+            <li><b>verano</b></li>
+            <li><b>otoño</b></li>
+            <li><b>invierno</b></li>
+            <li><b>primavera</b></li>
+        </ul>
+        <h3>selectores hermanos</h3>
+        <h4>selectores hermanos</h4>
+        <ul>
+            <li><b>verano</b></li>
+            <li class="hermanos-general"><b>otoño</b></li>
+            <li><b>invierno</b></li>
+            <li><b>primavera</b></li>
+        </ul>
+        <h4>selectores adyacentes</h4>
+        <ul>
+            <li><b>verano</b></li>
+            <li class="hermanos-adyacentes"><b>otoño</b></li>
+            <li><b>invierno</b></li>
+            <li><b>primavera</b></li>
+        </ul>
+        <h3>selectores de atributos</h3>
+        <nav class="selectores-atributos">
+            <ul>
+                <li><a href="https://jonmircha.com/cursos" target="_blank">cursos</a></li>
+                <li><a class="id-enlace blog" href="http://jonmircha.com/blog" target="_blank">blog</a></li>
+                <li><a href="https://jonmircha.com/mentoria" target="_blank">mentoria</a></li>
+                <li><a href="http://jonmircha.com/hola" target="_blank">hola</a></li>
+                <li><a class="id-enlace blog" href="http://jonmircha.com/vecina" target="_blank">vecina</a></li>
+                <li><a class="id enlace -casa mundo" href="http://jonmircha.com/caracoles" target="_blank">caracoles</a>
+                </li>
+                <li><a class="id enlace -tigre  mundo" href="http://jonmircha.com/grillos" target="_blank">grillos</a>
+                </li>
+
+            </ul>
+        </nav>
+        <h3>selector universal (*)</h3>
+        <ul class="selector_universal">
+            <li><b>verano</b></li>
+            <li><b>otoño</b></li>
+            <li><b>invierno</b></li>
+            <li><b>primavera</b></li>
+        </ul>
+        <a href="index.html#temario-curso">👆</a>
+    </article>
+    <hr>
+    <article id="pseudoclase">
+        <h2>pseudoclase</h2>
+        <form class="form_pseudoclase">
+            <input type="text" name="nombre" placeholder="escriba su nombre" required>
+            <br>
+            <input type="email" name="correo" placeholder="escriba su correo electronico" required>
+            <br>
+            <input type="password" name="contraseña" disabled placeholder="escriba su contraseña">
+            <br>
+            <input type="submit" name="enviar">
+            <nav class="menu_pseudoclase">
+                <a href="seccion1">seccion1</a>
+                <br>
+                <a href="seccion2">seccion2</a>
+                <br>
+                <a href="seccion3">seccion3</a>
+                <br>
+                <a href="seccion4">seccion4</a>
+            </nav>
+            <br>
+            <ol class="lista_pseudoclases">
+                <li>casa</li>
+                <li>perro</li>
+                <li>gato</li>
+                <li>gorila</li>
+                <li>elefante</li>
+                <li>gaviota</li>
+            </ol>
+        </form>
+        <a href="index.html#temario-curso">👆</a>
+
+    </article>
+
+    <div>
+        <h2 class="holak">hola caballos</h2>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+
+</html>

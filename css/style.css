@@ -1,0 +1,136 @@
+h1 {
+  text-align: center;
+  background-color: antiquewhite;
+  border-style: dashed;
+  border-color: violet;
+}
+
+.hijos-directos > li {
+  background-color: blue;
+}
+
+.hijos-descendientes b {
+  background-color: thistle;
+}
+
+.hermanos-general ~ li {
+  background-color: chocolate;
+}
+
+.hermanos-adyacentes + li {
+  background-color: crimson;
+}
+
+.selectores-atributos a[href] {
+  color: teal;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.selectores-atributos {
+  background-color: thistle;
+  border-style: double;
+  border-color: blueviolet;
+  border-radius: 56px;
+  text-align: center;
+}
+
+.selectores-atributos a[href*="cursos"] {
+  font-size: 30px;
+  background-color: burlywood;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.selectores-atributos [href*="hola"] {
+  background-color: chocolate;
+  font-size: 50px;
+}
+
+.selectores-atributos a[href^="https:"] {
+  text-decoration: none;
+}
+
+.selectores-atributos a[href$="mentoria"] {
+  background-color: blue;
+}
+
+.selectores-atributos a[class~="blog"] {
+  background-color: chartreuse;
+}
+
+.selectores-atributos a[class|="mundo"] {
+  font-style: italic;
+}
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.selector_universal * {
+  font-size: 25px;
+}
+
+.form_pseudoclase *:required {
+  border-color: tomato;
+  background-color: burlywood;
+  font-style: normal;
+}
+
+.form_pseudoclase *::placeholder {
+  color: black;
+}
+
+.form_pseudoclase *:valid {
+  border-color: slateblue;
+}
+
+.form_pseudoclase *:invalid {
+  border-color: firebrick;
+}
+
+.form_pseudoclase *:focus {
+  background-color: springgreen;
+}
+
+.menu_pseudoclase a:hover {
+  color: chartreuse;
+}
+
+.menu_pseudoclase a[href] {
+  color: violets;
+  text-decoration: none;
+}
+
+#temario-curso:target {
+  background-color: yellow;
+}
+
+.lista_pseudoclases li:first-child {
+  background-color: brown;
+  text-align: center;
+  font-size: 26px;
+}
+
+.lista_pseudoclases li:last-child {
+  color: blue;
+}
+
+.lista_pseudoclases li:nth-child(4) {
+  background-color: chartreuse;
+}
+
+.lista_pseudoclases li:nth-child(2) {
+  color: black;
+  background-color: burlywood;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.holak {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
